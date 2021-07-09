@@ -3,6 +3,8 @@
 #include <cmath>
 #include <iostream>
 
+// source: Průvodce světem algoritmů --> http://pruvodce.ucw.cz/static/pruvodce.pdf
+
 int bin_search(std::vector<int> arr, int y){
     int l = 0;
     int r = arr.size();
